@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A99EB31A9B699E005EB568 /* ChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A99EB21A9B699E005EB568 /* ChapterCollectionViewCell.swift */; };
 		A2E0CB0A1A8BE7B80044A85E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB091A8BE7B80044A85E /* AppDelegate.swift */; };
-		A2E0CB0C1A8BE7B80044A85E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB0B1A8BE7B80044A85E /* ViewController.swift */; };
 		A2E0CB0F1A8BE7B80044A85E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E0CB0D1A8BE7B80044A85E /* Main.storyboard */; };
 		A2E0CB111A8BE7B80044A85E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E0CB101A8BE7B80044A85E /* Images.xcassets */; };
 		A2E0CB141A8BE7B80044A85E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E0CB121A8BE7B80044A85E /* LaunchScreen.xib */; };
 		A2E0CB201A8BE7B80044A85E /* Calvin_CommentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB1F1A8BE7B80044A85E /* Calvin_CommentsTests.swift */; };
+		A2E0CB2C1A8BE8EF0044A85E /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB2B1A8BE8EF0044A85E /* BooksTableViewController.swift */; };
+		A2E0CB2E1A8BE9480044A85E /* SectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB2D1A8BE9480044A85E /* SectionsTableViewController.swift */; };
+		A2E0CB301A8BE9550044A85E /* ChaptersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB2F1A8BE9550044A85E /* ChaptersCollectionViewController.swift */; };
+		A2E0CB321A8BE97C0044A85E /* CommentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0CB311A8BE97C0044A85E /* CommentaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2A99EB21A9B699E005EB568 /* ChapterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterCollectionViewCell.swift; path = ../ChapterCollectionViewCell.swift; sourceTree = "<group>"; };
 		A2E0CB041A8BE7B80044A85E /* Calvin_Comments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calvin_Comments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E0CB081A8BE7B80044A85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2E0CB091A8BE7B80044A85E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2E0CB0B1A8BE7B80044A85E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2E0CB0E1A8BE7B80044A85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2E0CB101A8BE7B80044A85E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A2E0CB131A8BE7B80044A85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A2E0CB191A8BE7B80044A85E /* Calvin_CommentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calvin_CommentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E0CB1E1A8BE7B80044A85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2E0CB1F1A8BE7B80044A85E /* Calvin_CommentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calvin_CommentsTests.swift; sourceTree = "<group>"; };
+		A2E0CB2B1A8BE8EF0044A85E /* BooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		A2E0CB2D1A8BE9480044A85E /* SectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsTableViewController.swift; sourceTree = "<group>"; };
+		A2E0CB2F1A8BE9550044A85E /* ChaptersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaptersCollectionViewController.swift; sourceTree = "<group>"; };
+		A2E0CB311A8BE97C0044A85E /* CommentaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				A2E0CB091A8BE7B80044A85E /* AppDelegate.swift */,
-				A2E0CB0B1A8BE7B80044A85E /* ViewController.swift */,
+				A2E0CB2B1A8BE8EF0044A85E /* BooksTableViewController.swift */,
+				A2A99EB21A9B699E005EB568 /* ChapterCollectionViewCell.swift */,
+				A2E0CB2D1A8BE9480044A85E /* SectionsTableViewController.swift */,
+				A2E0CB2F1A8BE9550044A85E /* ChaptersCollectionViewController.swift */,
+				A2E0CB311A8BE97C0044A85E /* CommentaryViewController.swift */,
 				A2E0CB0D1A8BE7B80044A85E /* Main.storyboard */,
 				A2E0CB101A8BE7B80044A85E /* Images.xcassets */,
 				A2E0CB121A8BE7B80044A85E /* LaunchScreen.xib */,
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E0CB0C1A8BE7B80044A85E /* ViewController.swift in Sources */,
+				A2A99EB31A9B699E005EB568 /* ChapterCollectionViewCell.swift in Sources */,
+				A2E0CB2C1A8BE8EF0044A85E /* BooksTableViewController.swift in Sources */,
+				A2E0CB2E1A8BE9480044A85E /* SectionsTableViewController.swift in Sources */,
+				A2E0CB321A8BE97C0044A85E /* CommentaryViewController.swift in Sources */,
+				A2E0CB301A8BE9550044A85E /* ChaptersCollectionViewController.swift in Sources */,
 				A2E0CB0A1A8BE7B80044A85E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +423,7 @@
 				A2E0CB251A8BE7B80044A85E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2E0CB261A8BE7B80044A85E /* Build configuration list for PBXNativeTarget "Calvin_CommentsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				A2E0CB281A8BE7B80044A85E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
